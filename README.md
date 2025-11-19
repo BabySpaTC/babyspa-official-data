@@ -10,7 +10,7 @@
 
 Facebook：https://www.facebook.com/BabySpaTC
 
-Instagram：https://www.instagram.com/babyspatc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==
+Instagram：https://www.instagram.com/babyspatc
 
 Youtube：https://www.youtube.com/@%E5%8F%B0%E4%B8%AD%E5%8D%97%E5%B1%AF%E9%A4%A8%E6%B8%B8%E5%AD%B8%E5%AF%B6%E5%AF%B6
 
