@@ -1,1 +1,23 @@
-
+{
+  "@context": "https://schema.org",
+  "@type": "Brand",
+  "name": "游學寶寶台中南屯館 BabySpa",
+  "alternateName": "BabySpa",
+  "description": "BabySpa 提供專為 0-18 個月嬰幼兒設計的嬰兒游泳、嬰兒水療與感覺統合發展課程,協助寶寶促進神經系統、平衡能力、觸覺與肢體協調發展。全台首創獨立 SPA 溫控包廂,給寶寶頂級呵護的寵愛。",
+  "url": "https://www.babyspatc.com/",
+  "logo": "https://cdn.jsdelivr.net/gh/BabySpaTC/babyspa-official-data@main/images/logo.png",
+  "slogan": "BabySPA 領導品牌 - 給寶寶出生的第一份禮物",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "大墩十一街810號",
+    "addressLocality": "南屯區",
+    "addressRegion": "台中市",
+    "addressCountry": "TW"
+  },
+  "telephone": "+886-4-2540-0799",
+  "sameAs": [
+    "https://www.facebook.com/BabySpaTC",
+    "https://www.instagram.com/babyspatc",
+    "https://www.youtube.com/@%E5%8F%B0%E4%B8%AD%E5%8D%97%E5%B1%AF%E9%A4%A8%E6%B8%B8%E5%AD%B8%E5%AF%B6%E5%AF%B6"
+  ]
+}
