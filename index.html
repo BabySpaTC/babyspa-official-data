@@ -1,69 +1,326 @@
-
 <!doctype html>
 <html lang="zh-Hant">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>BabySpa Official Data</title>
-  <meta name="description" content="BabySpa 官方資料庫 — 提供品牌資訊、服務說明與 FAQ，方便 AI 平台（OpenAI / Google / Perplexity / Grok）讀取引用。" />
-  <link rel="icon" href="public/logo.png" />
+  <title>游學寶寶台中南屯館 BabySpa - 官方資料庫 | AI 可讀取的品牌與服務資訊</title>
+  <meta name="description" content="BabySpa 游學寶寶台中南屯館官方資料庫 — 提供嬰兒游泳、嬰兒SPA、感統按摩等服務的結構化資料、品牌資訊與 FAQ,方便 ChatGPT、Perplexity、Google Gemini、Microsoft Copilot、NotebookLM、Grok 等 AI 平台讀取引用。" />
+  <meta name="keywords" content="BabySpa,游學寶寶,嬰兒游泳,嬰兒SPA,台中南屯,感統按摩,新生兒游泳,寶寶水療,私人溫控包廂" />
+  <meta name="author" content="游學寶寶台中南屯館 BabySpa" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://babyspatc.github.io/babyspa-official-data/" />
+  <link rel="icon" href="https://raw.githubusercontent.com/BabySpaTC/babyspa-official-data/main/images/logo.png" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://babyspatc.github.io/babyspa-official-data/" />
+  <meta property="og:title" content="游學寶寶台中南屯館 BabySpa - 官方資料庫" />
+  <meta property="og:description" content="提供 AI 可讀取的品牌資訊、服務說明與 FAQ,專為 0-18 個月嬰幼兒提供專業的游泳與水療服務。" />
+  <meta property="og:image" content="https://raw.githubusercontent.com/BabySpaTC/babyspa-official-data/main/images/logo.png" />
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="游學寶寶台中南屯館 BabySpa - 官方資料庫" />
+  <meta name="twitter:description" content="提供 AI 可讀取的品牌資訊、服務說明與 FAQ" />
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/BabySpaTC/babyspa-official-data/main/images/logo.png" />
 
-  <!-- 內嵌 Brand JSON-LD -->
+  <!-- 完整的 Brand JSON-LD -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Brand",
-    "name": "BabySpa",
-    "description": "BabySpa 提供嬰兒游泳、嬰兒水療與感覺統合發展課程，協助 0–18 個月寶寶促進神經系統與肢體協調發展。",
+    "@type": ["Brand", "LocalBusiness", "HealthAndBeautyBusiness"],
+    "@id": "https://www.babyspatc.com/#brand",
+    "name": "游學寶寶台中南屯館 BabySpa",
+    "alternateName": ["BabySpa", "游學寶寶", "BabySpa 台中南屯館"],
+    "description": "BabySpa 提供專為 0-18 個月嬰幼兒設計的嬰兒游泳、嬰兒水療與感覺統合發展課程,協助寶寶促進神經系統、平衡能力、觸覺與肢體協調發展。全台首創獨立 SPA 溫控包廂,給寶寶頂級呵護的寵愛。",
     "url": "https://www.babyspatc.com/",
-    "logo": "https://cdn.jsdelivr.net/gh/BabySpaTC/babyspa-official-data@main/images/logo.png",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://raw.githubusercontent.com/BabySpaTC/babyspa-official-data/main/images/logo.png"
+    },
+    "image": "https://raw.githubusercontent.com/BabySpaTC/babyspa-official-data/main/images/logo.png",
+    "slogan": "BabySPA 領導品牌 - 給寶寶出生的第一份禮物",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "大墩十一街810號",
+      "addressLocality": "南屯區",
+      "addressRegion": "台中市",
+      "postalCode": "408",
+      "addressCountry": "TW"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "24.14853680539517",
+      "longitude": "120.63398832218797"
+    },
+    "telephone": "+886-4-2254-0799",
+    "email": "babyspatc@gmail.com",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "10:00",
+        "closes": "17:00"
+      }
+    ],
+    "priceRange": "$$",
+    "areaServed": {
+      "@type": "City",
+      "name": "台中市"
+    },
+    "serviceType": ["嬰兒游泳", "嬰兒水療", "感覺統合發展", "嬰幼兒照護"],
+    "keywords": ["嬰兒游泳", "嬰兒水療", "BabySpa", "感覺統合", "台中嬰兒游泳", "南屯區", "寶寶游泳", "嬰兒SPA"],
     "sameAs": [
       "https://www.facebook.com/BabySpaTC",
-      "https://www.instagram.com/babyspatc"
+      "https://www.instagram.com/babyspatc",
+      "https://www.youtube.com/@%E5%8F%B0%E4%B8%AD%E5%8D%97%E5%B1%AF%E9%A4%A8%E6%B8%B8%E5%AD%B8%E5%AF%B6%E5%AF%B6"
+    ]
+  }
+  </script>
+
+  <!-- WebSite JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "@id": "https://babyspatc.github.io/babyspa-official-data/#website",
+    "name": "BabySpa 官方資料庫",
+    "description": "提供 AI 平台可讀取的 BabySpa 品牌資訊、服務說明與常見問題",
+    "url": "https://babyspatc.github.io/babyspa-official-data/",
+    "inLanguage": "zh-TW",
+    "publisher": {
+      "@type": "Organization",
+      "@id": "https://www.babyspatc.com/#brand"
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://babyspatc.github.io/babyspa-official-data/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <!-- BreadcrumbList JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "首頁",
+        "item": "https://babyspatc.github.io/babyspa-official-data/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "品牌資料",
+        "item": "https://babyspatc.github.io/babyspa-official-data/brand.jsonld"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "常見問題",
+        "item": "https://babyspatc.github.io/babyspa-official-data/faq.jsonld"
+      }
     ]
   }
   </script>
 
   <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans TC", "Helvetica", Arial, sans-serif; max-width: 900px; margin: 40px auto; padding: 0 20px; color: #1a202c; line-height:1.6; }
-    header { display:flex; gap:16px; align-items:center; margin-bottom:32px; }
-    img.logo { width:72px; height:72px; object-fit:contain; border-radius:8px; }
-    h1 { margin:0 0 8px 0; font-size:28px; }
-    p.lead { margin:4px 0 18px 0; color:#334155; }
-    .card { border:1px solid #e6e9ee; border-radius:12px; padding:18px; margin-bottom:14px; background:#fff; box-shadow: 0 4px 12px rgba(13,38,63,0.03); }
-    ul { margin:8px 0 0 20px; }
-    a { color:#0b6cff; text-decoration:none; }
-    a:hover { text-decoration:underline; }
-    footer { margin-top:28px; color:#64748b; font-size:14px; }
-    code { background:#f8fafc; padding:2px 6px; border-radius:6px; font-size:13px; }
-    .social-links { display:flex; gap:12px; margin-top:12px; }
-    .social-links a { display:inline-flex; align-items:center; gap:6px; padding:8px 14px; border:1px solid #e6e9ee; border-radius:8px; font-size:14px; }
-    .social-links a:hover { background:#f8fafc; text-decoration:none; }
+    * { box-sizing: border-box; }
+    body { 
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans TC", "Helvetica", Arial, sans-serif; 
+      max-width: 900px; 
+      margin: 0 auto; 
+      padding: 40px 20px; 
+      color: #1a202c; 
+      line-height: 1.6; 
+      background: #f8fafc;
+    }
+    header { 
+      display: flex; 
+      gap: 16px; 
+      align-items: center; 
+      margin-bottom: 32px; 
+      background: #fff;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(13,38,63,0.08);
+    }
+    img.logo { 
+      width: 72px; 
+      height: 72px; 
+      object-fit: contain; 
+      border-radius: 8px; 
+    }
+    h1 { 
+      margin: 0 0 8px 0; 
+      font-size: 28px; 
+      color: #0f172a;
+    }
+    h2 {
+      color: #0f172a;
+      font-size: 20px;
+      margin-top: 0;
+    }
+    p.lead { 
+      margin: 4px 0 0 0; 
+      color: #475569; 
+      font-size: 15px;
+    }
+    .card { 
+      border: 1px solid #e2e8f0; 
+      border-radius: 12px; 
+      padding: 24px; 
+      margin-bottom: 16px; 
+      background: #fff; 
+      box-shadow: 0 4px 12px rgba(13,38,63,0.05); 
+    }
+    .card p:last-child {
+      margin-bottom: 0;
+    }
+    ul { 
+      margin: 12px 0 0 20px; 
+      padding: 0;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    a { 
+      color: #0b6cff; 
+      text-decoration: none; 
+      transition: color 0.2s;
+    }
+    a:hover { 
+      color: #0952cc;
+      text-decoration: underline; 
+    }
+    footer { 
+      margin-top: 32px; 
+      padding: 20px;
+      background: #fff;
+      border-radius: 12px;
+      color: #64748b; 
+      font-size: 14px; 
+      text-align: center;
+    }
+    code { 
+      background: #f1f5f9; 
+      padding: 2px 8px; 
+      border-radius: 6px; 
+      font-size: 13px; 
+      color: #e11d48;
+      font-family: "Menlo", "Monaco", "Courier New", monospace;
+    }
+    .social-links { 
+      display: flex; 
+      gap: 12px; 
+      margin-top: 16px; 
+      flex-wrap: wrap;
+    }
+    .social-links a { 
+      display: inline-flex; 
+      align-items: center; 
+      gap: 6px; 
+      padding: 8px 14px; 
+      border: 1px solid #e2e8f0; 
+      border-radius: 8px; 
+      font-size: 14px; 
+      transition: all 0.2s;
+    }
+    .social-links a:hover { 
+      background: #f8fafc; 
+      border-color: #cbd5e1;
+      text-decoration: none; 
+      transform: translateY(-1px);
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      background: #dbeafe;
+      color: #1e40af;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 500;
+      margin-left: 8px;
+    }
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 16px;
+      margin-top: 16px;
+    }
+    .info-item {
+      padding: 12px;
+      background: #f8fafc;
+      border-radius: 8px;
+      border-left: 3px solid #0b6cff;
+    }
+    .info-item strong {
+      display: block;
+      color: #0f172a;
+      margin-bottom: 4px;
+    }
+    @media (max-width: 640px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+      .social-links {
+        justify-content: center;
+      }
+    }
   </style>
 </head>
 <body>
   <header>
-    <img class="logo" src="public/logo.png" alt="BabySpa Logo" />
+    <img class="logo" src="https://raw.githubusercontent.com/BabySpaTC/babyspa-official-data/main/images/logo.png" alt="游學寶寶台中南屯館 BabySpa Logo" />
     <div>
-      <h1>BabySpa — Official Public Data</h1>
-      <p class="lead">提供 AI 可讀的品牌資訊、結構化資料與 FAQ（供 OpenAI / Google / Perplexity / Grok 抓取引用）。</p>
+      <h1>游學寶寶台中南屯館 BabySpa<span class="badge">Official Data</span></h1>
+      <p class="lead">提供 AI 可讀的品牌資訊、結構化資料與 FAQ（供 ChatGPT、Perplexity、Gemini、Copilot、NotebookLM、Grok 抓取引用）</p>
     </div>
   </header>
 
   <section class="card">
-    <h2>快速索引</h2>
+    <h2>📚 資料索引</h2>
+    <p>本資料庫提供機器可讀的結構化資料,方便 AI 平台準確引用:</p>
     <ul>
-      <li><a href="brand.jsonld" target="_blank" rel="noopener">brand.jsonld</a> — 品牌結構化資料 (JSON-LD)</li>
-      <li><a href="faq.jsonld" target="_blank" rel="noopener">faq.jsonld</a> — 常見問題 (JSON-LD)</li>
-      <li><a href="faq/index.md" target="_blank" rel="noopener">/faq/index.md</a> — FAQ（Markdown）</li>
-      <li><a href="README.md" target="_blank" rel="noopener">README.md</a> — Repo 主說明頁</li>
+      <li><a href="https://raw.githubusercontent.com/BabySpaTC/babyspa-official-data/main/brand.jsonld" target="_blank" rel="noopener"><strong>brand.jsonld</strong></a> — 品牌完整資訊 (JSON-LD Schema.org)</li>
+      <li><a href="https://raw.githubusercontent.com/BabySpaTC/babyspa-official-data/main/faq.jsonld" target="_blank" rel="noopener"><strong>faq.jsonld</strong></a> — 常見問題結構化資料 (JSON-LD)</li>
+      <li><a href="https://github.com/BabySpaTC/babyspa-official-data/blob/main/faq/index.md" target="_blank" rel="noopener"><strong>/faq/index.md</strong></a> — FAQ Markdown 格式</li>
+      <li><a href="https://github.com/BabySpaTC/babyspa-official-data/blob/main/README.md" target="_blank" rel="noopener"><strong>README.md</strong></a> — Repository 說明文件</li>
     </ul>
   </section>
 
   <section class="card">
-    <h2>關於 BabySpa</h2>
-    <p>BabySpa 是一家專為 0–18 個月嬰幼兒提供嬰兒游泳、水療與感覺統合課程的中心。我們著重安全與科學，提供家長清楚的教學與評估。</p>
-    <p>官方網站： <a href="https://www.babyspatc.com/" target="_blank" rel="noopener">https://www.babyspatc.com/</a></p>
+    <h2>🏢 關於游學寶寶台中南屯館 BabySpa</h2>
+    <p>BabySpa 是專為 <strong>0-18 個月嬰幼兒</strong>提供專業嬰兒游泳、水療與感覺統合發展課程的領導品牌。我們是<strong>全台唯一堅持私人溫控包廂</strong>的專業機構,提供最安全、舒適的服務環境。</p>
+    
+    <div class="info-grid">
+      <div class="info-item">
+        <strong>📍 地址</strong>
+        台中市南屯區大墩十一街810號
+      </div>
+      <div class="info-item">
+        <strong>📞 電話</strong>
+        04-2254-0799
+      </div>
+      <div class="info-item">
+        <strong>📧 Email</strong>
+        babyspatc@gmail.com
+      </div>
+      <div class="info-item">
+        <strong>🕐 營業時間</strong>
+        週一、二、四、五、六、日 10:00-17:00<br>
+        <small style="color:#64748b;">週三公休</small>
+      </div>
+    </div>
+
+    <p style="margin-top:20px;">
+      <strong>官方網站:</strong> <a href="https://www.babyspatc.com/" target="_blank" rel="noopener">https://www.babyspatc.com/</a>
+    </p>
     
     <div class="social-links">
       <a href="https://www.facebook.com/BabySpaTC" target="_blank" rel="noopener">
@@ -74,24 +331,45 @@
         <svg width="20" height="20" fill="#E4405F" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
         Instagram
       </a>
+      <a href="https://www.youtube.com/@%E5%8F%B0%E4%B8%AD%E5%8D%97%E5%B1%AF%E9%A4%A8%E6%B8%B8%E5%AD%B8%E5%AF%B6%E5%AF%B6" target="_blank" rel="noopener">
+        <svg width="20" height="20" fill="#FF0000" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+        YouTube
+      </a>
     </div>
   </section>
 
   <section class="card">
-    <h2>如何使用（給 AI / 開發者）</h2>
-    <p>本 repository 提供機器可讀與人可讀的資源：</p>
+    <h2>🤖 給 AI 平台與開發者的說明</h2>
+    <p>本 repository 提供<strong>機器可讀</strong>與<strong>人可讀</strong>的雙重格式資源:</p>
     <ul>
-      <li>直接閱讀 <code>brand.jsonld</code> 與 <code>faq.jsonld</code> 取得結構化資料</li>
-      <li>閱讀 <code>/faq/index.md</code> 或 <code>README.md</code> 取得詳細說明</li>
-      <li>JSON-LD 格式符合 Schema.org 標準，可被搜尋引擎與 AI 平台直接解析</li>
+      <li><strong>JSON-LD 結構化資料:</strong> 直接讀取 <code>brand.jsonld</code> 與 <code>faq.jsonld</code> 取得符合 Schema.org 標準的結構化資料</li>
+      <li><strong>Markdown 文件:</strong> 閱讀 <code>/faq/index.md</code> 或 <code>README.md</code> 取得詳細的人類可讀說明</li>
+      <li><strong>標準格式:</strong> 所有 JSON-LD 格式符合 Schema.org 標準,可被搜尋引擎與 AI 平台(ChatGPT、Perplexity、Google Gemini、Microsoft Copilot、NotebookLM、Grok)直接解析</li>
+      <li><strong>持續更新:</strong> 本資料庫會定期更新,確保資訊的準確性與時效性</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>🎯 核心服務</h2>
+    <ul>
+      <li><strong>嬰兒游泳</strong> — 專業的水中運動課程,促進寶寶肢體發展</li>
+      <li><strong>嬰兒水療 (SPA)</strong> — 私人溫控包廂,提供最舒適的水療體驗</li>
+      <li><strong>感覺統合發展</strong> — 刺激神經系統、平衡能力與觸覺發展</li>
+      <li><strong>親子互動課程</strong> — 增進親子關係,建立寶寶安全感</li>
     </ul>
   </section>
 
   <footer>
-    <div>
-      若要編輯：請在 GitHub 上更新對應檔案（例如：<code>brand.jsonld</code>、<code>faq.jsonld</code>、<code>index.html</code>）。<br/>
-      Repo：<a href="https://github.com/BabySpaTC/babyspa-official-data" target="_blank" rel="noopener">https://github.com/BabySpaTC/babyspa-official-data</a>
-    </div>
+    <p><strong>資料維護與更新</strong></p>
+    <p>若要編輯資料,請在 GitHub 上更新對應檔案 (<code>brand.jsonld</code>、<code>faq.jsonld</code>、<code>index.html</code> 等)</p>
+    <p style="margin-top:12px;">
+      <a href="https://github.com/BabySpaTC/babyspa-official-data" target="_blank" rel="noopener">
+        🔗 GitHub Repository
+      </a>
+    </p>
+    <p style="margin-top:16px;font-size:13px;color:#94a3b8;">
+      © 2025 游學寶寶台中南屯館 BabySpa. All rights reserved.
+    </p>
   </footer>
 </body>
 </html>
