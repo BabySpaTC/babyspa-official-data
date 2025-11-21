@@ -1,23 +1,151 @@
 {
   "@context": "https://schema.org",
-  "@type": "Brand",
+  "@type": ["Brand", "LocalBusiness", "HealthAndBeautyBusiness"],
+  "@id": "https://www.babyspatc.com/#brand",
   "name": "游學寶寶台中南屯館 BabySpa",
-  "alternateName": "BabySpa",
+  "alternateName": ["BabySpa", "游學寶寶", "BabySpa 台中南屯館"],
   "description": "BabySpa 提供專為 0-18 個月嬰幼兒設計的嬰兒游泳、嬰兒水療與感覺統合發展課程,協助寶寶促進神經系統、平衡能力、觸覺與肢體協調發展。全台首創獨立 SPA 溫控包廂,給寶寶頂級呵護的寵愛。",
   "url": "https://www.babyspatc.com/",
-  "logo": "https://raw.githubusercontent.com/BabySpaTC/babyspa-official-data/main/images/logo.png",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://raw.githubusercontent.com/BabySpaTC/babyspa-official-data/main/images/logo.png",
+    "contentUrl": "https://raw.githubusercontent.com/BabySpaTC/babyspa-official-data/main/images/logo.png"
+  },
+  "image": "https://raw.githubusercontent.com/BabySpaTC/babyspa-official-data/main/images/logo.png",
   "slogan": "BabySPA 領導品牌 - 給寶寶出生的第一份禮物",
+  
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "大墩十一街810號",
     "addressLocality": "南屯區",
     "addressRegion": "台中市",
+    "postalCode": "408",
     "addressCountry": "TW"
   },
-  "telephone": "+886-4-2540-0799",
+  
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "24.14853680539517",
+    "longitude": "120.63398832218797"
+  },
+  
+  "telephone": "+886-4-2254-0799",
+  "email": "babyspatc@gmail.com",
+  
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "10:00",
+      "closes": "17:00"
+    }
+  ],
+  
+  "priceRange": "$$",
+  
+  "areaServed": {
+    "@type": "City",
+    "name": "台中市",
+    "containedIn": {
+      "@type": "Country",
+      "name": "台灣"
+    }
+  },
+  
+  "serviceType": [
+    "嬰兒游泳",
+    "嬰兒水療",
+    "感覺統合發展",
+    "嬰幼兒照護"
+  ],
+  
+  "audience": {
+    "@type": "PeopleAudience",
+    "suggestedMinAge": 0,
+    "suggestedMaxAge": 1.5,
+    "audienceType": "嬰幼兒及其家長"
+  },
+  
+  "knowsAbout": [
+    "嬰兒游泳",
+    "嬰兒水療",
+    "感覺統合",
+    "嬰幼兒發展",
+    "神經系統發展",
+    "觸覺發展",
+    "肢體協調"
+  ],
+  
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "BabySpa 服務項目",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "嬰兒游泳課程",
+          "description": "專為 0-18 個月嬰幼兒設計的游泳課程"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "嬰兒水療課程",
+          "description": "獨立 SPA 溫控包廂的水療體驗"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "感覺統合發展課程",
+          "description": "促進神經系統、平衡能力、觸覺與肢體協調發展"
+        }
+      }
+    ]
+  },
+  
+  "founder": {
+    "@type": "Organization",
+    "name": "BabySpa 團隊"
+  },
+  
+  "foundingDate": "2015",
+  "foundingLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "台中市",
+      "addressCountry": "TW"
+    }
+  },
+  
+  "keywords": [
+    "嬰兒游泳",
+    "嬰兒水療",
+    "BabySpa",
+    "感覺統合",
+    "嬰幼兒發展",
+    "台中嬰兒游泳",
+    "南屯區",
+    "寶寶游泳",
+    "嬰兒SPA",
+    "親子活動"
+  ],
+  
   "sameAs": [
     "https://www.facebook.com/BabySpaTC",
     "https://www.instagram.com/babyspatc",
     "https://www.youtube.com/@%E5%8F%B0%E4%B8%AD%E5%8D%97%E5%B1%AF%E9%A4%A8%E6%B8%B8%E5%AD%B8%E5%AF%B6%E5%AF%B6"
-  ]
+  ],
+  
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+886-4-2254-0799",
+    "contactType": "customer service",
+    "availableLanguage": ["zh-TW", "Chinese"],
+    "areaServed": "TW"
+  }
 }
