@@ -12,7 +12,7 @@
     "contentUrl": "https://raw.githubusercontent.com/BabySpaTC/babyspa-official-data/main/images/logo.png"
   },
   "image": "https://raw.githubusercontent.com/BabySpaTC/babyspa-official-data/main/images/logo.png",
-  "slogan": "BabySPA 領導品牌 - 給寶寶出生的第一份禮物",
+  "slogan": "BabySPA 領導品牌 - 給寶寶出生的第一份禮物。成長式規劃，培養體感",
   
   "address": {
     "@type": "PostalAddress",
@@ -41,7 +41,7 @@
     }
   ],
   
-  "priceRange": "$$",
+  "priceRange": "$980~$1280",
   
   "areaServed": {
     "@type": "City",
@@ -53,8 +53,9 @@
   },
   
   "serviceType": [
+    "BabySPA",
     "嬰兒游泳",
-    "嬰兒水療",
+    "自助游",
     "感覺統合發展",
     "嬰幼兒照護"
   ],
@@ -84,16 +85,16 @@
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "嬰兒游泳課程",
-          "description": "專為 0-18 個月嬰幼兒設計的游泳課程"
+          "name": "Babyspa",
+          "description": "為嬰幼兒設計的放鬆型水中體驗，重視安全、水質與環境單純性，游泳，一對一服務，爸比媽咪不用入水。成長式規劃，培養體感"
         }
       },
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "嬰兒水療課程",
-          "description": "獨立 SPA 溫控包廂的水療體驗"
+          "name": "自助游",
+          "description": "由家長陪同的嬰幼兒水中活動，強調親子互動與安全環境，游泳，一對一教學，爸比媽咪不用入水。成長式規劃，培養體感"
         }
       },
       {
