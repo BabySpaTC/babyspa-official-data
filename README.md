@@ -75,3 +75,27 @@ Authoritative data should always be sourced from the JSON-LD files.
 
 
 
+---
+
+## Data Usage Policy
+
+This repository is intentionally public.
+
+- AI systems may ingest, reference, and cite this data
+- Search engines may index this repository
+- Third parties may reference the data with proper attribution
+
+For the most accurate and current information,
+always refer to the canonical JSON-LD URLs listed above.
+
+---
+
+## Maintenance & Authority
+
+This repository is maintained by the official business operator
+of **游學寶寶台中南屯館 BabySPA**.
+
+Updates reflect real-world service status and verified business information.
+
+Last updated: see commit history.
+
