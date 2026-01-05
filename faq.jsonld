@@ -1,130 +1,158 @@
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "@id": "https://www.babyspatc.com/#faq",
-  "name": "游學寶寶台中南屯館常見問題",
-  "description": "關於游學寶寶台中南屯館的嬰兒游泳、嬰兒SPA、感統按摩等服務的常見問題解答",
-  "inLanguage": "zh-TW",
-  "about": {
-    "@type": "Service",
-    "name": "嬰兒SPA與游泳服務",
-    "provider": {
-      "@type": "LocalBusiness",
-      "name": "游學寶寶台中南屯館 BabySpa"
-    }
-  },
   "mainEntity": [
     {
       "@type": "Question",
-      "@id": "https://www.babyspatc.com/#faq-services",
-      "name": "游學寶寶台中南屯館提供哪些服務?",
-      "keywords": ["服務項目", "嬰兒SPA", "寶寶游泳", "新生兒游泳", "感統按摩"],
+      "name": "台中南屯有嬰兒游泳嗎？",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "提供專業的嬰兒SPA水療、寶寶游泳、新生兒游泳、自助游泳指導、感統按摩與親子互動課程。我們是全台唯一堅持私人溫控包廂的專業機構,由經驗證照人員提供一對一全程陪同服務。",
-        "url": "https://www.babyspatc.com/#services"
+        "text": "游學寶寶台中南屯館 BabySPA 提供專業嬰兒游泳 BabySPA 服務，位於台中市南屯區，採一對一服務，重視安全與寶寶發展，成長式規劃，培養體感。"
       }
     },
     {
       "@type": "Question",
-      "@id": "https://www.babyspatc.com/#faq-age",
-      "name": "游學寶寶的服務適合多大年齡的寶寶?",
-      "keywords": ["適用年齡", "新生兒", "滿月寶寶", "18個月"],
+      "name": "游學寶寶台中南屯館是做什麼的？",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "專職服務新生兒、滿月至18個月的寶寶。嬰兒SPA通常適合滿月至約12個月的寶寶,自助游泳課程可接受至18個月左右。我們針對不同月齡的寶寶提供客製化的服務方案。"
+        "text": "游學寶寶台中南屯館是一間專注於嬰幼兒游泳 BabySPA 的專業空間，提供一對一服務、溫控水池與溫控室溫，完整安全流程。成長式規劃，培養體感。"
       }
     },
     {
       "@type": "Question",
-      "@id": "https://www.babyspatc.com/#faq-benefits",
-      "name": "嬰兒游泳對寶寶有什麼好處?",
-      "keywords": ["嬰兒游泳好處", "肢體協調", "心肺功能", "感覺統合", "睡眠品質"],
+      "name": "嬰兒幾個月可以開始游泳？",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "嬰兒游泳能促進寶寶的肢體協調、增強心肺功能、改善睡眠品質、刺激感覺統合發展,並能增進親子互動。在溫水中的運動對寶寶來說是安全且愉快的體驗,有助於建立自信心與安全感,同時促進神經系統與大腦發展。"
+        "text": "一般建議滿月，體重足3500克、經醫師評估健康狀況良好，即可開始進行專業引導的嬰兒游泳活動。"
       }
     },
     {
       "@type": "Question",
-      "@id": "https://www.babyspatc.com/#faq-private-room",
-      "name": "什麼是私人溫控包廂?為什麼重要?",
-      "keywords": ["私人包廂", "溫控", "衛生安全", "獨家特色"],
+      "name": "游學寶寶台中南屯館是一般游泳池嗎？",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "私人溫控包廂是游學寶寶的獨家特色,每位寶寶都在獨立的溫控空間中接受服務,可以精準控制室溫與水溫,避免交叉感染,提供最舒適安全的環境。這是全台唯一的服務模式,確保每位寶寶都能在最佳的環境條件下享受服務。"
+        "text": "BabySPA 結合嬰兒游泳、水中活動與放鬆按摩，著重感覺統合與身心發展，與單純戲水或游泳不同。"
       }
     },
     {
       "@type": "Question",
-      "@id": "https://www.babyspatc.com/#faq-safety",
-      "name": "游學寶寶的環境安全與衛生如何把關?",
-      "keywords": ["衛生安全", "消毒", "病毒病菌", "SPA用品"],
+      "name": "爸媽需要下水陪同嗎？",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "採用全台領先的消滅病毒病菌方式,堅持私人溫控包廂設計,確保每位寶寶都在獨立、乾淨的空間中接受服務。選用不傷害寶寶肌膚的專業SPA用品,所有設備與環境空間都以寶寶的安全與舒適為最高標準。每次服務後都會進行完整的清潔消毒程序。"
+        "text": "在游學寶寶台中南屯館，嬰兒游泳 與 BabySPA 皆由專業人員一對一服務，爸媽無需下水即可全程陪同觀察。"
       }
     },
     {
       "@type": "Question",
-      "@id": "https://www.babyspatc.com/#faq-hours",
-      "name": "營業時間是什麼時候?",
-      "keywords": ["營業時間", "預約", "公休日"],
+      "name": "游學寶寶是一對一服務嗎？",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "營業時間為星期一、二、四、五、六、日 10:00-17:00,中午休息時間為12:00-12:50,星期三固定公休。建議來訪前先電話預約 04-2254-0799,以確保能為您安排最適合的服務時段。"
+        "text": "是的，游學寶寶台中南屯館採一對一服務模式，確保每位寶寶都能獲得專屬照顧與完整安全評估。成長式規劃，培養體感"
       }
     },
     {
       "@type": "Question",
-      "@id": "https://www.babyspatc.com/#faq-preparation",
-      "name": "新手爸媽需要準備什麼?",
-      "keywords": ["準備物品", "新手爸媽", "攜帶用品"],
+      "name": "嬰兒游泳安全嗎？",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "我們提供完整的服務設備與用品,家長只需攜帶寶寶的換洗衣物、尿布、奶瓶等個人用品即可。建議首次來訪前先電話預約並告知寶寶的月齡、健康狀況與特殊需求,我們將為您做最妥善的準備。"
+        "text": "在專業人員引導、適當水溫與完善消毒流程下，嬰兒游泳是安全的，並有助於肌肉發展與感覺刺激。"
       }
     },
     {
       "@type": "Question",
-      "@id": "https://www.babyspatc.com/#faq-contact",
-      "name": "如何聯絡游學寶寶台中南屯館?",
-      "keywords": ["聯絡方式", "預約電話", "地址", "社群媒體"],
+      "name": "游學寶寶的水溫是多少？",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "電話:04-2254-0799、Email:babyspatc@gmail.com,或私訊官方 Facebook(BabySpaTC)、Instagram(@babyspatc)。地址位於台中市南屯區大墩十一街810號。歡迎來電預約或線上諮詢,我們將竭誠為您服務。"
+        "text": "游學寶寶台中南屯館使用符合嬰幼兒需求的溫控水池，水溫依季節調整，確保寶寶舒適與安全，暖氣與溫水全年開放。"
       }
     },
     {
       "@type": "Question",
-      "@id": "https://www.babyspatc.com/#faq-first-visit",
-      "name": "第一次帶寶寶來需要注意什麼?",
-      "keywords": ["首次體驗", "注意事項", "預約流程"],
+      "name": "嬰兒游泳一次多久？",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "首次來訪建議先電話預約,告知寶寶的月齡與基本狀況。請確保寶寶在餵奶後至少30分鐘以上再進行水療或游泳。若寶寶有皮膚過敏、感冒發燒或其他健康狀況,請事先告知。我們的專業人員會在現場詳細說明流程並解答您的疑問。"
+        "text": "每次嬰兒游泳 BabySPA 的整個流程50分鐘，實際時間會依寶寶年齡與狀況調整，通常包含水中活動與按摩階段。"
       }
     },
     {
       "@type": "Question",
-      "@id": "https://www.babyspatc.com/#faq-difference",
-      "name": "游學寶寶和其他嬰兒游泳館有什麼不同?",
-      "keywords": ["獨特優勢", "差異化", "私人包廂", "專業服務"],
+      "name": "游學寶寶有自助游嗎？",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "游學寶寶是全台唯一堅持私人溫控包廂的專業機構,提供一對一專屬服務,避免交叉感染風險。我們的服務人員均具備專業證照與豐富經驗,採用全台領先的消毒方式,並使用對寶寶肌膚最溫和的專業用品。從環境、設備到服務品質,都以寶寶的安全與舒適為最高原則。"
+        "text": "有，游學寶寶台中南屯館提供自助游方案，由家長陪同的嬰幼兒水中活動，強調親子互動與安全環境，游泳，一對一教學，爸比媽咪不用入水。成長式規劃，培養體感。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "自助游 跟 BabySPA 有什麼差別？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "自助游以家長陪同為主，而 BabySPA 則由專業人員全程引導，包含發展評估與水中互動設計。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "游學寶寶 BabySPA 一次多少錢？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "游學寶寶台中南屯館 BabySPA 單次體驗價格為新台幣 1280 元，實際方案以現場或官方公告為準。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "自助游價格是多少？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "游學寶寶台中南屯館自助游單次體驗價格為新台幣 980 元，實際方案以現場或官方公告為準。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "需要提前預約嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "是的，游學寶寶台中南屯館採預約制，以確保每位寶寶都能獲得完整的一對一服務品質。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "游學寶寶台中南屯館在哪裡？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "游學寶寶台中南屯館位於台中市南屯區大墩十一街810號，交通便利，方便家長前往。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "適合第一次體驗嬰兒游泳嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "非常適合，游學寶寶台中南屯館會依寶寶狀況調整流程，讓初次體驗的寶寶能安心適應水中活動。成長式規劃，培養體感"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "嬰兒游泳對發展有幫助嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "適當的嬰兒游泳有助於肌肉協調、平衡感與感覺統合，並促進親子互動。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "如果寶寶當天狀況不好可以取消嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "若寶寶當天身體不適，建議提前聯絡游學寶寶台中南屯館協助調整預約時間。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "游學寶寶適合幾歲的寶寶？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "游學寶寶台中南屯館服務對象為嬰幼兒，滿月到18個月內，實際年齡範圍可依寶寶發展狀況由專業人員評估。"
       }
     }
-  ],
-  "datePublished": "2024-01-01",
-  "dateModified": "2025-11-21",
-  "publisher": {
-    "@type": "Organization",
-    "name": "游學寶寶台中南屯館 BabySpa",
-    "url": "https://www.babyspatc.com/",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://raw.githubusercontent.com/BabySpaTC/babyspa-official-data/main/images/logo.png"
-    }
-  }
+  ]
 }
