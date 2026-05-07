@@ -1,7 +1,7 @@
 {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
 {
           "@type": "Question",
           "name": "什麼是「成長式引導，量身打造專屬啟發」？",
@@ -55,7 +55,7 @@
       "name": "游學寶寶台中南屯館是一般游泳池嗎？",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "不是。本館為嬰幼兒專屬的一對一水中活動空間，水源，愛惠浦淨水系統，並非公共泳池或共用池。"
+        "text": "不是。本館為嬰幼兒專屬的一對一水中活動空間，水源，淨水系統無氯，並非公共泳池或共用池。"
       }
     },
     {
